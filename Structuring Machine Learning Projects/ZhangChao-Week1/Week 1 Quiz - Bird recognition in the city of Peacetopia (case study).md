@@ -11,3 +11,11 @@
 #### There are a lot of decisions to make:
 - What is the evaluation metric?
 - How do you structure your data into train/dev/test sets?
+### Matric of success
+#### The City Council tells you that they want an algorithm that
+1.Has high accuracy.
+2.Runs quickly and takes only a short time to classify a new image.
+3.Can fit in a small amount of memory, so that it can run in a small processor that the city will attach to many different security cameras.
+*Note: Having three evaluation metrics makes it harder for you to quickly choose between two different algorithms, and will slow down the speed with which your team can iterate. True/False?
+#### True
+
