@@ -68,3 +68,18 @@ No, because there is insufficient information to tell.
 |:-:|:-:|:-:|:-:|
 |0.1%|2.0%|2.1%|7.0%|
 #### What does this mean? (Check the two best options.)
+- You have overfit to the dev set.
+- You should try to get a bigger dev set.
+#### 12.After working on this project for a year, you finally achieve:
+|Human-level performance|Training set error|Dev set error|
+|:-:|:-:|:-:|
+|0.10%|0.05%|0.05%|
+#### What can you conclude? (Check all that apply.)
+- It is now harder to measure avoidable bias, thus progress will be slower going forward.
+- If the test set is big enough for the 0.05% error estimate to be accurate, this implies Bayes error is ≤0.05
+#### 13.It turns out Peacetopia has hired one of your competitors to build a system as well. Your system and your competitor both deliver systems with about the same running time and memory size. However, your system has higher accuracy! However, when Peacetopia tries out your and your competitor’s systems, they conclude they actually like your competitor’s system better, because even though you have higher overall accuracy, you have more false negatives (failing to raise an alarm when a bird is in the air). What should you do?
+Rethink the appropriate metric for this task, and ask your team to tune to the new metric.
+#### 14.You’ve handily beaten your competitor, and your system is now deployed in Peacetopia and is protecting the citizens from birds! But over the last few months, a new species of bird has been slowly migrating into the area, so the performance of your system slowly degrades because your data is being tested on a new type of data.
+<div align=center><img src="https://github.com/Kiiiiii123/Coursera-DL-AndrewNg/blob/master/imgs/Alcazar.jpg"width="400"height="300"/></div>
+
+#### You have only 1,000 images of the new species of bird. The city expects a better system from you within the next 3 months. Which of these should you do first?
