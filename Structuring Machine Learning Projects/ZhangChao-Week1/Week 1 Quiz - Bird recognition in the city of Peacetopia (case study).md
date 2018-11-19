@@ -29,3 +29,15 @@ True
 |Test Accuracy|Runtime|Memory Size|
 |:-:|:-:|:-:|
 |98%|9 sec|9Mb|
+#### 3.Based on the city’s requests, which of the following would you say is true?
+Accuracy is an optimizing metric; running time and memory size are a satisficing metrics.
+### Structuring your data
+#### 4.Before implementing your algorithm, you need to split your data into train/dev/test sets. Which of these do you think is the best choice?
+|Train|Dev|Test|
+|:-:|:-:|:-:|
+|9,500,000|250,000|250,000|
+#### 5.After setting up your train/dev/test sets, the City Council comes across another 1,000,000 images, called the “citizens’ data”. Apparently the citizens of Peacetopia are so scared of birds that they volunteered to take pictures of the sky and label them, thus contributing these additional 1,000,000 images. These images are different from the distribution of images the City Council had originally given you, but you think it could help your algorithm.
+#### You should not add the citizens’ data to the training set, because this will cause the training and dev/test set distributions to become different, thus hurting dev and test set performance. True/False?
+False
+#### 6.One member of the City Council knows a little about machine learning, and thinks you should add the 1,000,000 citizens’ data images to the test set. You object because:
+
