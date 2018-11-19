@@ -19,6 +19,13 @@
 
 3.Can fit in a small amount of memory, so that it can run in a small processor that the city will attach to many different security cameras.
 
-*Note: Having three evaluation metrics makes it harder for you to quickly choose between two different algorithms, and will slow down the speed with which your team can iterate. True/False?
-#### True
-
+#### 1.Note: Having three evaluation metrics makes it harder for you to quickly choose between two different algorithms, and will slow down the speed with which your team can iterate. True/False?
+True
+#### 2.After further discussions, the city narrows down its criteria to:
+- "We need an algorithm that can let us know a bird is flying over Peacetopia as accurately as possible."
+- "We want the trained model to take no more than 10sec to classify a new image.”
+- “We want the model to fit in 10MB of memory.”
+#### If you had the three following models, which one would you choose?
+|Test Accuracy|Runtime|Memory Size|
+|：--------|--------：|：----：|
+|98%|9 sec|9Mb|
