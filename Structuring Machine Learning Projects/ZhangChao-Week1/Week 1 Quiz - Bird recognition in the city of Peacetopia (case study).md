@@ -27,5 +27,5 @@ True
 - “We want the model to fit in 10MB of memory.”
 #### If you had the three following models, which one would you choose?
 |Test Accuracy|Runtime|Memory Size|
-|：--------|--------：|：----：|
+|-|-|-|
 |98%|9 sec|9Mb|
