@@ -16,7 +16,9 @@ Fales
 #### 4.After working on the data for several weeks, your team ends up with the following data:
 - 100,000 labeled images taken using the front-facing camera of your car.
 - 900,000 labeled images of roads downloaded from the internet.
-- Each image’s labels precisely indicate the presence of any specific road signs and traffic signals or combinations of them. For example,
+- Each image’s labels precisely indicate the presence of any specific road signs and traffic signals or combinations of them. For example,y(i)=[1 0 0 1 0] means the image contains a stop sign and a red traffic light.Because this is a multi-task learning problem, you need to have all your y(i) vectors fully labeled.If one example is equal to [0 ? 1 1 ?] then the learning algorithm will not be able to use that example. True/False?
+False
+#### 5.The distribution of data you care about contains images from your car’s front-facing camera; which comes from a different distribution than the images you were able to find and download off the internet. How should you split the dataset into train/dev/test sets?
 
 
 
