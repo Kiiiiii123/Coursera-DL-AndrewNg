@@ -54,9 +54,12 @@ So long as the synthesized fog looks realistic to the human eye, you can be conf
 #### What do you tell your colleague?
 She should try using weights pre-trained on your dataset, and fine-tuning further with the yellow-light dataset.
 #### 13.Another colleague wants to use microphones placed outside the car to better hear if there’re other vehicles around you. For example, if there is a police vehicle behind you, you would be able to hear their siren. However, they don’t have much to train this audio system. How can you help?
+Neither transfer learning nor multi-task learning seems promising.
 #### 14.To recognize red and green lights, you have been using this approach:
 - (A) Input an image (x) to a neural network and have it directly learn a mapping to make a prediction as to whether there’s a red light and/or green light (y).
 #### A teammate proposes a different, two-step approach:
 - (B) In this two-step approach, you would first (i) detect the traffic light in the image (if any), then (ii) determine the color of the illuminated lamp in the traffic light.
 #### Between these two, Approach B is more of an end-to-end approach because it has distinct steps for the input end and the output end. True/False?
+False
 #### 15.Approach A (in the question above) tends to be more promising than approach B if you have a ________ (fill in the blank).
+Large training set
