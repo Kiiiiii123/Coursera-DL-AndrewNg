@@ -28,6 +28,15 @@ Choose the training set to be the 900,000 images from the internet along with 80
 |Training-Dev|20,000 images randomly picked from (900,000 internet images + 60,000 car’s front-facing camera images)|9.1%|
 |Dev|20,000 images from your car’s front-facing camera|14.3%|
 |Test|20,000 images from the car’s front-facing camera|14.8%|
+#### You also know that human-level error on the road sign and traffic signals classification task is around 0.5%. Which of the following are True? (Check all that apply).
+- You have a large data-mismatch problem because your model does a lot better on the training-dev set than on the dev set
+- You have a large avoidable-bias problem because your training error is quite a bit higher than the human-level error.
+#### 7.Based on table from the previous question, a friend thinks that the training data distribution is much easier than the dev/test distribution. What do you think?
+There’s insufficient information to tell if your friend is right or wrong.
+#### 8.You decide to focus on the dev set and check by hand what are the errors due to. Here is a table summarizing your discoveries:
+|Overall dev set error|Errors due to incorrectly labeled data|Errors due to foggy pictures|Errors due to rain drops stuck on your car’s front-facing camera|Errors due to other causes|
+|:-:|:-:|:-:|
+|14.3%|4.1%|8.0%|2.2%|1.0%|
 
 
 
