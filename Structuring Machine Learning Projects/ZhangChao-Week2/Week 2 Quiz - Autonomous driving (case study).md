@@ -37,6 +37,14 @@ There’s insufficient information to tell if your friend is right or wrong.
 |Overall dev set error|Errors due to incorrectly labeled data|Errors due to foggy pictures|Errors due to rain drops stuck on your car’s front-facing camera|Errors due to other causes|
 |:-:|:-:|:-:|:-:|:-:|
 |14.3%|4.1%|8.0%|2.2%|1.0%|
+#### In this table, 4.1%, 8.0%, etc.are a fraction of the total dev set (not just examples your algorithm mislabeled). I.e. about 8.0/14.3 = 56% of your errors are due to foggy pictures.
+#### The results from this analysis implies that the team’s highest priority should be to bring more foggy pictures into the training set so as to address the 8.0% of errors in that category. True/False?
+False because this would depend on how easy it is to add this data and how much you think your team thinks it’ll help.
+#### 9.You can buy a specially designed windshield wiper that help wipe off some of the raindrops on the front-facing camera. Based on the table from the previous question, which of the following statements do you agree with?
+2.2% would be a reasonable estimate of the maximum amount this windshield wiper could improve performance.
+#### 10.You decide to use data augmentation to address foggy images. You find 1,000 pictures of fog off the internet, and “add” them to clean images to synthesize foggy days, like this:
+<div align=center><img src="https://github.com/Kiiiiii123/Coursera-DL-AndrewNg/blob/master/imgs/foggy%20images.png"/></div>
+#### Which of the following statements do you agree with?
 
 
 
