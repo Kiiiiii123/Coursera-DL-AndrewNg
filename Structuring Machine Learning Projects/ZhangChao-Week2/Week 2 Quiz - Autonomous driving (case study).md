@@ -21,7 +21,13 @@ Fales
 False
 #### 5.The distribution of data you care about contains images from your car’s front-facing camera; which comes from a different distribution than the images you were able to find and download off the internet. How should you split the dataset into train/dev/test sets?
 Choose the training set to be the 900,000 images from the internet along with 80,000 images from your car’s front-facing camera. The 20,000 remaining images will be split equally in dev and test sets.
-
+#### 6.Assume you’ve finally chosen the following split between of the data:
+|Dataset:|Contains:|Error of the algorithm:|
+|:-:|:-:|:-:|
+|Training|940,000 images randomly picked from (900,000 internet images + 60,000 car’s front-facing camera images)|8.8%|
+|Training-Dev|20,000 images randomly picked from (900,000 internet images + 60,000 car’s front-facing camera images)|9.1%|
+|Dev|20,000 images from your car’s front-facing camera|14.3%|
+|Test|20,000 images from the car’s front-facing camera|14.8%|
 
 
 
