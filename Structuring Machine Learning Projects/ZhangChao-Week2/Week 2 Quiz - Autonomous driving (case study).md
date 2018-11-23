@@ -35,7 +35,7 @@ Choose the training set to be the 900,000 images from the internet along with 80
 There’s insufficient information to tell if your friend is right or wrong.
 #### 8.You decide to focus on the dev set and check by hand what are the errors due to. Here is a table summarizing your discoveries:
 |Overall dev set error|Errors due to incorrectly labeled data|Errors due to foggy pictures|Errors due to rain drops stuck on your car’s front-facing camera|Errors due to other causes|
-|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|:-:|
 |14.3%|4.1%|8.0%|2.2%|1.0%|
 
 
