@@ -44,9 +44,22 @@ False because this would depend on how easy it is to add this data and how much 
 2.2% would be a reasonable estimate of the maximum amount this windshield wiper could improve performance.
 #### 10.You decide to use data augmentation to address foggy images. You find 1,000 pictures of fog off the internet, and “add” them to clean images to synthesize foggy days, like this:
 <div align=center><img src="https://github.com/Kiiiiii123/Coursera-DL-AndrewNg/blob/master/imgs/foggy%20images.png"/></div>
+
 #### Which of the following statements do you agree with?
-
-
+So long as the synthesized fog looks realistic to the human eye, you can be confident that the synthesized data is accurately capturing the distribution of real foggy images (or a subset of it), since human vision is very accurate for the problem you’re solving.
+#### 11.After working further on the problem, you’ve decided to correct the incorrectly labeled data on the dev set. Which of these statements do you agree with? (Check all that apply).
+- You should also correct the incorrectly labeled data in the test set, so that the dev and test sets continue to come from the same distribution
+- You should not correct incorrectly labeled data in the training set as it does not worth the time.
+#### 12.So far your algorithm only recognizes red and green traffic lights. One of your colleagues in the startup is starting to work on recognizing a yellow traffic light. (Some countries call it an orange light rather than a yellow light; we’ll use the US convention of calling it yellow.) Images containing yellow lights are quite rare, and she doesn’t have enough data to build a good model. She hopes you can help her out using transfer learning.
+#### What do you tell your colleague?
+She should try using weights pre-trained on your dataset, and fine-tuning further with the yellow-light dataset.
+#### 13.Another colleague wants to use microphones placed outside the car to better hear if there’re other vehicles around you. For example, if there is a police vehicle behind you, you would be able to hear their siren. However, they don’t have much to train this audio system. How can you help?
+#### 14.To recognize red and green lights, you have been using this approach:
+- (A) Input an image (x) to a neural network and have it directly learn a mapping to make a prediction as to whether there’s a red light and/or green light (y).
+#### A teammate proposes a different, two-step approach:
+- (B) In this two-step approach, you would first (i) detect the traffic light in the image (if any), then (ii) determine the color of the illuminated lamp in the traffic light.
+#### Between these two, Approach B is more of an end-to-end approach because it has distinct steps for the input end and the output end. True/False?
+#### 15.Approach A (in the question above) tends to be more promising than approach B if you have a ________ (fill in the blank).
 
 
 
